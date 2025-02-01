@@ -30,8 +30,11 @@ article {
     /*in auto makes it equal on all sides */
     padding: auto;
     /*adding makes sure there is no space between the content and border */
-    width: 800px;
+     max-width: 60%;
     /* limits the width to 800px  */
+    max-height: fit-content;
+    /* makes the height fit the content */
+
 }
 
 /* these styles will be applied to the paragraphs */
