@@ -15,14 +15,15 @@ body{
     font-family: sans-serif; /* this styling makes all parent and children sans-serif */
        
 }
+
 /* article contains independent self-contained content */
 article{
     border: #1d8764;  /* denotes the color of the border */
     border-width: 4px; /* adds width to the border  */
     border-style: double; /* styles the border */
     margin: auto; /* margin auto makes it equal on all sides */
-    padding: 0; /* padding makes sure there is no space between the content and border */
-     width: 800px; /* limits the width to 800px  */
+    padding: auto; /* padding makes sure there is no space between the content and border */
+    width: 800px; /* limits the width to 800px  */
    }
 
 /* these styles will be applied to the paragraphs */
