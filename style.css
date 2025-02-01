@@ -1,0 +1,68 @@
+/* Css syntax styling starts by pointing to the seletor (html element you want to style)
+inside the curly braces you place your declarations made up of a property and a value. seperated by a semicolon */
+
+/* 
+  selector {
+        property: value;
+        property: value;
+        property: value;
+      }
+*/
+
+/* anything put in the body tags will affect the entire page. */
+body{
+    background-color: #e3fbf3; /* this styling changes the entire background color */
+    font-family: sans-serif; /* this styling makes all parent and children sans-serif */
+}
+
+/* these styles will be applied to the paragraphs */
+p{
+    color: #1d8764; /* Changes the color of the text */
+    background-color: #cfffef; /*changes the background color */
+    padding: 2%; /* the space between the content and its border  */
+    margin: 2%;/* the space between elements */
+}
+
+/* I added the hover element to improve visability and help users to see where they are at on the page by making a visual difference on mouseover */
+/* these are examples of pseudo-classes both of these will afect the paragraphs*/
+/* hover makes these styles apply to the paragraphs that are hovered over */
+p:hover{
+    background-color: white; /* on mouseover background white  */
+    color: #1d8764;/* on mouseover font dark green */
+    box-shadow: 0px 3px 5px #1d8764;/* on mousover a shadow will appear */
+}
+/* visited makes the text thats been clicked show the following styles */
+a:visited{
+	color: #fd7b44; /*makes clicked links change to orange */
+}
+
+/* h1 heading styles */
+h1{
+    color: #1d8764; /* changes the h1 font color */
+    text-align: center; /* aligns the h1 text to the center */
+    }	
+
+/*  h2 styles (article headers) */
+h2{
+    background-color: #1d8764; /* changes the color of the h2 heading  */
+    color: #cfffef; /* changes the color of the h2 article header font */
+    padding: 2%; /* creates space between the h2 header and its border */
+    margin: 2%; /* creates space between the h2 border and other elements */
+}
+
+/* h3 styles (section headers) */
+h3{
+    color: #1d8764; /* changes the h3 font color  */
+    text-align: center; /*aligns the h3 headers to the center  */
+    margin: 2%; /* creates spacebetween the h3 border and other elements  */
+}
+
+
+         
+
+
+
+
+
+
+	
