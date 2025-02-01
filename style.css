@@ -11,17 +11,26 @@ inside the curly braces you place your declarations made up of a property and a 
 
 /* anything put in the body tags will affect the entire page. */
 body{
-    background-color: #e3fbf3; /* this styling changes the entire background color */
+     background-color: #e3fbf3; /* this styling changes the entire background color */
     font-family: sans-serif; /* this styling makes all parent and children sans-serif */
+       
 }
+/* article contains independent self-contained content */
+article{
+    border: #1d8764;  /* denotes the color of the border */
+    border-width: 4px; /* adds width to the border  */
+    border-style: double; /* styles the border */
+    margin: auto; /* margin auto makes it equal on all sides */
+    padding: 0; /* padding makes sure there is no space between the content and border */
+     width: 800px; /* limits the width to 800px  */
+   }
 
 /* these styles will be applied to the paragraphs */
 p{
     color: #1d8764; /* Changes the color of the text */
     background-color: #cfffef; /*changes the background color */
-    padding: 2%; /* the space between the content and its border  */
-    margin: 2%;/* the space between elements */
-}
+    padding: 1%; /* creates space between the paragraph text and its border */
+  }
 
 /* I added the hover element to improve visability and help users to see where they are at on the page by making a visual difference on mouseover */
 /* these are examples of pseudo-classes both of these will afect the paragraphs*/
@@ -31,6 +40,7 @@ p:hover{
     color: #1d8764;/* on mouseover font dark green */
     box-shadow: 0px 3px 5px #1d8764;/* on mousover a shadow will appear */
 }
+
 /* visited makes the text thats been clicked show the following styles */
 a:visited{
 	color: #fd7b44; /*makes clicked links change to orange */
@@ -39,27 +49,30 @@ a:visited{
 /* h1 heading styles */
 h1{
     color: #1d8764; /* changes the h1 font color */
-    text-align: center; /* aligns the h1 text to the center */
-    }	
+    text-align: center; /* aligns h1 eaders to center */
+}
 
 /*  h2 styles (article headers) */
 h2{
     background-color: #1d8764; /* changes the color of the h2 heading  */
     color: #cfffef; /* changes the color of the h2 article header font */
-    padding: 2%; /* creates space between the h2 header and its border */
-    margin: 2%; /* creates space between the h2 border and other elements */
-}
+       }
 
 /* h3 styles (section headers) */
 h3{
-    color: #1d8764; /* changes the h3 font color  */
-    text-align: center; /*aligns the h3 headers to the center  */
-    margin: 2%; /* creates spacebetween the h3 border and other elements  */
-}
+   color: #1d8764; /* changes the h3 font color  */
+    text-align: center; /* aligns h3 headers to center */
+     }
 
 
          
 
+
+
+
+
+
+	
 
 
 
